@@ -1,0 +1,15 @@
+server:
+  servlet:
+    context-path: /
+  port: 8080
+
+logging:
+  level:
+    root: DEBUG
+
+service:
+  matchmaker:
+    groupSize: 6
+    minBalancePercent: 60
+    groupLatencySec: 20
+    formGroupDelay: 5000
